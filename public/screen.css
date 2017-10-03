@@ -14,7 +14,7 @@ body {
 #top {
   position: relative;
   padding: 220px 0 50px;
-  background: url(img/bf2.JPG);
+  background: url(img/bin.JPG);
   background-color: #b0b0d9;
   background-size: cover;
   background-position: center center;
@@ -45,58 +45,6 @@ body {
 .sticky ul li .name:hover {
   color: #fff;
 }
-
-/*.sticky nav label {
-	display: none;
-	position: fixed;
-	padding: 0 15px 0 5px;
-	font-size: 24px;
-	color: #c98b45;
-	top: 0;
-	left: 0;
-	cursor: pointer;
-	z-index: 50;
-}
-@media screen and (max-width: 720px) {
-	.sticky nav label {
-		display: block;
-	}
-}
-.sticky nav input[type="checkbox"] {
-	display: none;
-}
-@media screen and (max-width: 720px) {
-	.sticky nav input[type="checkbox"]:checked + ul {
-		left: 0;
-	}
-}
-@media screen and (max-width: 720px) {
-	.sticky nav ul {
-		background-color: #ebebea;
-		position: fixed;
-		left: -250px;
-    padding: 0;
-    margin: 0;
-		top: 0;
-		bottom: 0;
-		width: 230px;
-		-webkit-transition: all 200ms ease-in-out;
-		transition: all 200ms ease-in-out;
-		box-shadow: 2px 2px 5px black;
-	}
-}
-@media screen and (max-width: 720px) {
-	.sticky nav ul li {
-		display: block;
-		margin: 0;
-		padding: 25px 25px;
-		border-bottom: 1px solid #ccc;
-	}
-	.sticky nav ul li:nth-child(1) {
-		border-top: 1px solid #ccc;
-		margin-top: 60px;
-	}
-}*/
 
 
 /*----------Houme---------*/

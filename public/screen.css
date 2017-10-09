@@ -62,7 +62,7 @@ body {
   text-align: justify;
 }
 .list .col-6-p, .list .col-6-n {
-  display: inline-block;
+  /*display: inline-block;*/
   vertical-align: top;
   margin-right: 9%;
 }

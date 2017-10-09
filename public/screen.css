@@ -187,7 +187,7 @@ body {
 .services {
   /*position: relative;*/
 	margin: 20px 0 10px;
-	/*background: #e1e1e1;*/
+	background: #e1e1e1;
 	text-align: center;
   padding: 20px;
 }
@@ -220,7 +220,7 @@ ul.table li.column {
 	color: #000;
 	font-size: 18px;
 	font-weight: bold;
-  background: #acabab;
+  /*background: #acabab;*/
 }
 .price span {
 	display: block;
@@ -231,7 +231,7 @@ ul.table li.column {
 	font-size: 17px;
 	font-family: "Georgia", sans-serif;
 	font-weight: bold;
-	background: #fff;
+	/*background: #fff;*/
 	color: #000;
 	border-radius: 100px;
 }

@@ -53,6 +53,9 @@ body {
 	padding: 0;
 	margin: 20px 100px 10px;
 }
+.list .merst {
+  margin: 0 auto;
+}
 .list .last {
   margin-top: 70px;
 }
@@ -62,7 +65,7 @@ body {
   text-align: justify;
 }
 .list .col-6-p, .list .col-6-n {
-  /*display: inline-block;*/
+  display: inline-block;
   vertical-align: top;
   margin-right: 9%;
 }

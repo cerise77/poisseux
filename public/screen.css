@@ -94,9 +94,9 @@ body {
   .list .col-6-n {
 	  width: 100%;
 	}
-  .list .last {
+  /*.list .last {
     margin-top: 60px;
-  }
+  }*/
 }
 @media screen and (max-width: 410px) {
   .list {

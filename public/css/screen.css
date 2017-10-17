@@ -24,6 +24,10 @@ body {
 /*--------Menu-----------*/
 .sticky {
   position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   top: 0;
   padding: 10px 0;
   background: #cf7713;

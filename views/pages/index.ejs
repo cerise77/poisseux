@@ -15,161 +15,23 @@
   <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js"></script>
 
-  <script type="text/babel">
 
-  const Router = ReactRouterDOM.BrowserRouter;
-  const Route = ReactRouterDOM.Route;
-  const Switch = ReactRouterDOM.Switch;
-  const NavLink = ReactRouterDOM.NavLink;
+    <script type="text/babel" src="index.jsx">
+    </script>
 
-  class Home extends React.Component{
-      render(){
-          return <div className="list">
-                    <div className="col-6-p">
-                      <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div className="col-6-n">
-                      <article className="blogpost clearfix">
-                      <h3>Duis aute irure</h3>
-                        <img src="img/ret1.jpg"/>
-                				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                        <div className="teg">
-                					<ul>
-                						<li><NavLink exact to="/" className="number_comments">37 cupidatat</NavLink></li>
-                						<li>Veniam: <NavLink to="/">Voluptate</NavLink></li>
-                						<li>Esse: <NavLink to="/">Occaecat</NavLink></li>
-                					</ul>
-                        </div>
-                				<NavLink to="/" className="button_more">incididunt...</NavLink>
-                        </article>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="js/main-js.js"></script>
 
-                        <article className="blogpost clearfix">
-                        <div className="last">
-                        <h3>Duis aute irure</h3>
-                          <img src="img/ret2.jpg"/>
-                  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                          <div className="teg">
-                  					<ul>
-                  						<li><NavLink exact to="/" className="number_comments">37 cupidatat</NavLink></li>
-                  						<li>Veniam: <NavLink to="/">Voluptate</NavLink></li>
-                  						<li>Esse: <NavLink to="/">Occaecat</NavLink></li>
-                  					</ul>
-                          </div>
-                  				<NavLink to="/" className="button_more">incididunt...</NavLink>
-                          </div>
-                          </article>
-                    </div>
-                  </div>;
-        }
-  }
-  class About extends React.Component{
-      render(){
-          return <div className="services">
-        		<h2>Ullamco laboris</h2>
-        		<div className="product">
-        			<ul className="table">
-        				<li className="column">
-        					<div className="price">
-        						<h3>Fugiat nulla <span>voluptate</span></h3>
-        						<a className="signup" href="#">Adipisicing</a>
-        						<ul>
-        							<li>Exercitation</li>
-        							<li>Proident</li>
-        							<li>Consequat</li>
-        							<li>Occaecat</li>
-        						</ul>
-        					</div>
-        				</li>
-        				<li className="column">
-                <div className="price">
-                  <h3>Fugiat nulla <span>voluptate</span></h3>
-                  <a className="signup" href="#">Adipisicing</a>
-                  <ul>
-                    <li>Exercitation</li>
-                    <li>Proident</li>
-                    <li>Consequat</li>
-                    <li>Occaecat</li>
-                  </ul>
-                </div>
-        				</li>
-        				<li className="column">
-                <div className="price">
-                  <h3>Fugiat nulla <span>voluptate</span></h3>
-                  <a className="signup" href="#">Adipisicing</a>
-                  <ul>
-                    <li>Exercitation</li>
-                    <li>Proident</li>
-                    <li>Consequat</li>
-                    <li>Occaecat</li>
-                  </ul>
-                </div>
-        				</li>
-        			</ul>
-        		</div>
-        	</div>;
-      }
-  }
-  class NotFound extends React.Component{
-      render(){
-          return <h2>Resource is not found</h2>;
-      }
-  }
-  class Contacts extends React.Component{
-      render(){
-          return  <div className="contact">
-          <h3 className="hcontact">Nemo enim ipsam</h3>
-          <form className="clearfix">
-            <div className="half left clearfix">
-              <input type="text" className="input-name" placeholder="Ratione"/>
-              <input type="email" className="input-email" placeholder="Magnam"/>
-              <input type="text" className="input-subject" placeholder="Numquam eius"/>
-            </div>
-            <div className="half right clearfix">
-              <textarea name="message" type="text" className="input-message" placeholder="Quis autem"></textarea>
-            </div>
-            <input type="submit" value="Reprehenderit " className="input-submit"/>
-          </form>
-          </div>;
-      }
-  }
-  class Nav extends React.Component{
-      render(){
-          return <div className="sticky">
-        		<nav>
-        			<ul>
-        				<li><NavLink exact to="/" activeClassName="active" className="name">Houme</NavLink></li>
-        				<li><NavLink to="/about" activeClassName="active" className="name">About</NavLink></li>
-        				<li><NavLink to="/contacts" activeClassName="active" className="name">Contacts</NavLink></li>
-        			</ul>
-        		</nav>
-
-            </div>;
-      }
-  }
-  ReactDOM.render(
-      <Router>
-          <div>
-              <Nav />
-              <Switch>
-                  <Route exact path="/" component={Home} />
-                  <Route path="/about" component={About} />
-                  <Route path="/contacts" component={Contacts} />
-                  <Route component={NotFound} />
-              </Switch>
-          </div>
-      </Router>,
-      document.getElementById("header")
-  )
-
-
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+  <script src="js/bootstrap-touch-slider.js"></script>
+  <script>
+      $('.bootstrap-touch-sloud').bsTouchSlider();
   </script>
+
+    <script src="js/tabs.js"></script>
+    <script>if((self.parent&&!(self.parent===self))&&(self.parent.frames.length!=0)){self.parent.location=document.location}</script>-->
 
 </body>
 </html>
